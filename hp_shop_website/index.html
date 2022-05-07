@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
     <title>Shop quà lưu niệm</title>
 </head>
 <body>
@@ -14,7 +17,7 @@
             <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>Trợ Giúp</a></li>
             <li><a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i>Thông Báo</a></li>
         </ul>
-        <img src="img/logonoel.png" alt="logo" width="100px">
+        <img src="assets/img/logonoel.png" alt="logo" width="100px">
         <p>Welcome to Hoài Phương shop<i class="fa fa-snowflake-o" aria-hidden="true"></i></p>
     </div>
     <ul id="menu">
@@ -25,7 +28,8 @@
         <li><button><i class="fa fa-search" aria-hidden="true"></i></button><input type="text" id="search" name="search..."></li>
     </ul>
     <div id="banner">
-        <img style="width: 100%;" src="img/banner-noel.jpg" alt="banner">
+        <a href=""><img style="width: 100%;" src="assets/img/banner-noel.jpg" alt="banner"></a>
+        <a href=""><img style="width: 100%;" src="assets/img/banner-noel.jpg" alt="banner"></a>
     </div>
     <ul id="content">
         <li>
@@ -53,6 +57,19 @@
             <p>Để có thể chọn được món quà lưu niệm phù hợp cho người được tặng cũng không phải là một điều quá khó khăn. Trước tiên bạn phải xác định được đối tượng mình tặng là ai. Những thông tin bao gồm độ tuổi, giới tính, mối quan hệ của bạn với người đó như thế nào. Nếu bạn biết được sở thích của người đó nữa thì sẽ thật tuyệt vời. Khi xác định được đối tượng bạn sẽ có thể định hướng được những món quà phù hợp. Ví dụ nếu như là trẻ em thì bạn có thể tìm những món đồ chơi. Nếu là bạn nữ tuổi teen thì có thể chọn những món đồ nhỏ xinh, đáng yêu và ngộ nghĩnh. Nếu là người đi làm công sở có thể chọn những món đồ lưu niệm để trên bàn làm việc, ... Thứ hai, bạn phải xác định được lý do tặng quà. Một món quà sinh nhật sẽ khác với một món quà làm quen. Có những món quà lưu niệm sẽ phù hợp với từng dịp cụ thể. Ví dụ như Noel thì sẽ thường mua quả cầu tuyết, tết thiếu nhi thì sẽ thường mua đồ chơi, ... Kết hợp giữa đối tượng, lý do tặng quà sẽ giúp bạn chọn được một món quà lưu niệm phù hợp. Hãy cùng khám phá rất nhiều món quà lưu niệm ý nghĩa bên dưới nhé. Hy vọng bạn sẽ chọn được một món quà phù hợp.</p>
         </div>
     </div>
-    <script src="js.js"></script>
 </body>
+<script type="text/javascript" src="assets/slick/slick/slick.min.js"></script>
+<script type="text/javascript" src="assets/slick/slick/slick.js"></script>
+<script >
+    $(document).ready(function(){
+    $('#banner').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+        infinity: true,
+    });
+});
+</script>
 </html>
