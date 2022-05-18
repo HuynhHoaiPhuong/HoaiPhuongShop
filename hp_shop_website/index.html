@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/slick/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="assets/slick/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="assets/css/style.css">
-    
     <title>Shop quà lưu niệm</title>
 </head>
 <body>
-    <div id="chu-de">
+    <div class="header">
         <ul>
             <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Đăng Kí</a> | <a href="#">Đăng Nhập</a></li>
             <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>Trợ Giúp</a></li>
@@ -20,26 +19,22 @@
         <img src="assets/img/logonoel.png" alt="logo" width="100px">
         <p>Welcome to Hoài Phương shop<i class="fa fa-snowflake-o" aria-hidden="true"></i></p>
     </div>
-    <ul id="menu">
+    <ul class="menu">
         <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Trang Chủ</a></li>
+        <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i>Giới thiệu</a></li>
         <li><a href="#"><i class="fa fa-diamond" aria-hidden="true"></i>Sản Phẩm</a></li>
         <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Giỏ Hàng</a></li>
         <li><a href="#"><i class="fa fa-commenting-o" aria-hidden="true"></i>Tư vấn quà tặng</a></li>
         <li><button><i class="fa fa-search" aria-hidden="true"></i></button><input type="text" id="search" name="search..."></li>
     </ul>
-    <div id="banner">
-        <a href=""><img style="width: 100%;" src="assets/img/banner-noel.jpg" alt="banner"></a>
-        <a href=""><img style="width: 100%;" src="assets/img/banner-noel.jpg" alt="banner"></a>
+    <div class="slideshow">
+        <a href=""><img style="width: 100%; height: 600px;" src="assets/img/slide01.jpg" alt="slide"></a>
+        <a href=""><img style="width: 100%; height: 600px;" src="assets/img/slide02.png" alt="slide"></a>
+        <a href=""><img style="width: 100%; height: 600px;" src="assets/img/slide03.png" alt="slide"></a>
+        <a href=""><img style="width: 100%; height: 600px;" src="assets/img/slide04.png" alt="slide"></a>
     </div>
-    <ul id="content">
-        <li>
-            <i class="fa fa-home" aria-hidden="true"></i>
-            <i class="fa fa-hand-o-right" aria-hidden="true"></i>Sản Phẩm
-            <i class="fa fa-hand-o-right" aria-hidden="true"></i>Quà Lưu Niệm
-        </li>
-    </ul>
-    <div id="box-main">
-        <div id="mota">
+    <div class="box-main">
+        <div class="intro">
             <h1>Quà lưu niệm</h1>
             <h2>Quà lưu niệm dùng để làm gì?</h2>
             <p>Chúng ta ai cũng có những mối quan hệ gia đình và xã hội. 
@@ -58,18 +53,7 @@
         </div>
     </div>
 </body>
-<script type="text/javascript" src="assets/slick/slick/slick.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/slick/slick/slick.js"></script>
-<script >
-    $(document).ready(function(){
-    $('#banner').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        arrows: false,
-        infinity: true,
-    });
-});
-</script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 </html>
