@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('NunitoSans-Black.eot');
+    src: url('NunitoSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('NunitoSans-Black.woff2') format('woff2'),
+        url('NunitoSans-Black.woff') format('woff'),
+        url('NunitoSans-Black.ttf') format('truetype'),
+        url('NunitoSans-Black.svg#NunitoSans-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -6,6 +6,15 @@ $(document).ready(function(){
         autoplaySpeed: 3000,
         arrows: false,
         infinity: true,
+        dots:true,
+    });
+    $('.slick-tieuchi').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+        infinity: true,
     });
     /* Menu fixed */
     $(window).scroll(function(){
